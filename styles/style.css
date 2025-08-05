@@ -144,7 +144,9 @@ ol {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 1;
   overflow: hidden;
-  line-height: 26px;
+  line-height: 16.2px;
+  padding-top: 6px;
+  padding-right: 2px;
 }
 
 .content__accent {
@@ -239,7 +241,7 @@ ol {
 .search-form__pseudo-checkbox {
   height: 19px;
   width: 19px;
-  padding: 2px;
+  padding: 1px;
   border: 1px solid #fff;
   cursor: pointer;
 }
@@ -276,7 +278,7 @@ ol {
 
 .result__video {
   object-fit: cover;
-  object-position: center
+  object-position: center;
   height: 100%;
   width: 100%;
 }
